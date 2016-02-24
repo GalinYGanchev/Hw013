@@ -11,13 +11,12 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Scanner scanner = new Scanner(System.in);
-		// tuk zashto e Scanner scanner, a ne Scanner in ????
-		// kak se zatvarq sccaner
+		Scanner in = new Scanner(System.in);
+		
 		System.out.println("Въведете карта:");
 
-		String card = scanner.nextLine();
-		// tuk sushto ne e in.nextLine(); ???
+		String card = in.nextLine();
+		
 
 		switch (card) {
 		case "2":
